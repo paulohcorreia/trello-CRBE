@@ -20,6 +20,11 @@ body {
   font-weight: normal;
   color: #44A1A0; }
 
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #ffec00;
+  text-shadow: none; }
+
 ::selection {
   color: #fff;
   background: #ffec00;
