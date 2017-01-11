@@ -113,7 +113,7 @@ body {
 .reveal ul li {
   display: inline-block;
   list-style-type: none;
-  max-width: 70%;
+  max-width: 33%;
   margin: 20px auto;
   padding: 5px;
   font-style: italic;
@@ -358,4 +358,38 @@ body {
 
 #sld-8-2 span.status {
   font-size: 0.8em;
-  color: lavender;
+  color: lavender; }
+
+#sld-9-0 .wrapper {
+  width: 80%;
+  margin: auto; }
+#sld-9-0 .bar {
+  display: flex;
+  justify-content: space-between; }
+
+#sld-9-0 .bar:after {
+  content: " ";
+}
+
+#sld-9-0 img {
+  display: block;
+  margin: auto;
+  min-height: 120px;
+}
+
+#sld-9-0 p {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #44A1A0; }
+
+#sld-9-0 .BrasileirosNoMundo {
+  display: block;
+  height: 100%;
+  max-width: 80%;
+}
+
+/*#sld-9-0 .wara {
+  display: block;
+  max-width: 80%;
+}*/
