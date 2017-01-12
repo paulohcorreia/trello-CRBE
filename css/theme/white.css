@@ -393,3 +393,10 @@ body {
   display: block;
   max-width: 80%;
 }*/
+
+#logo-wara {
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  overflow: hidden;
+}
