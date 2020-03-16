@@ -349,12 +349,32 @@ body {
 #sld-8-1 p span.span {
   margin: 10px;
   border-radius: 5px; 
-  border: 2px solid #164194;}
+  background-color: #164194;
+  color: #6ca0e8;
+  text-decoration:none;
+  }
+
+#sld-8-1 p span > a {
+  margin: 10px;
+  border-radius: 5px; 
+  background-color: #164194;
+  color: #f7fbff;
+  text-decoration:none;
+  }
 
 #sld-8-1 p span.span:hover {
-  color: #6ca0e8;
+  color: #164194;
   text-shadow: none;
-  border: none; }
+  border: none; 
+  background-color:#6ca0e8;
+   }
+
+#sld-8-1 p span > a:hover {
+  color: #164194;
+  text-shadow: none;
+  border: none; 
+  background-color:#6ca0e8;
+   }
 
 #sld-8-2 span.status {
   font-size: 0.8em;
